@@ -1,0 +1,1085 @@
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.welcome {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+.welcome h1 {
+    font-size: 20px;
+    margin: 0px;
+    padding: 5px;
+    font-weight: 250;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.navbar ul {
+
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-top: 26px;
+    margin: 0;
+}
+
+.navbar li {
+    position: relative;
+}
+
+.navbar h3 {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.nav1 {
+    background-color: white;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+
+
+}
+
+.nav1 a {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    width: 200px;
+    height: 40px;
+    display: block;
+    text-decoration: none;
+    gap: 20px;
+}
+
+.nav1 a:hover {
+    background-color: yellow;
+}
+
+.navbar li:hover .nav1 {
+    display: block;
+
+
+}
+
+.nav2 {
+    background-color: white;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+
+}
+
+.nav2 a {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    width: 200px;
+    height: 40px;
+    display: block;
+    text-decoration: none;
+    gap: 20px;
+}
+
+.nav2 a:hover {
+    background-color: yellow;
+}
+
+.navbar li:hover .nav2 {
+    display: block;
+}
+
+.nav3 {
+    background-color: white;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+
+}
+
+.nav3 a {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    width: 200px;
+    height: 40px;
+    display: block;
+    text-decoration: none;
+    gap: 20px;
+}
+
+.nav3 a:hover {
+    background-color: yellow;
+}
+
+.navbar li:hover .nav3 {
+    display: block;
+}
+
+.nav4 {
+    background-color: white;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+
+}
+
+.nav4 a {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    width: 200px;
+    height: 40px;
+    display: block;
+    text-decoration: none;
+    gap: 20px;
+}
+
+.nav4 a:hover {
+    background-color: yellow;
+}
+
+.navbar li:hover .nav4 {
+    display: block;
+}
+
+.nav5 {
+    background-color: white;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+
+}
+
+.nav5 a {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    width: 200px;
+    height: 40px;
+    display: block;
+    text-decoration: none;
+    gap: 20px;
+}
+
+.nav5 a:hover {
+    background-color: yellow;
+}
+
+.navbar li:hover .nav5 {
+    display: block;
+}
+
+.tri {
+    border-radius: 20px;
+    color: black;
+    border: solid;
+    background-color: rgb(255, 255, 0);
+    text-align: center;
+    width: 160px;
+    height: 60px;
+    font-weight: 600;
+    align-content: center;
+    transition-duration: 0.3s;
+    cursor: pointer;
+
+
+}
+
+.navbar :hover.tri {
+    color: gray;
+    width: 170px;
+    height: 70px;
+}
+
+
+.adbar {
+    margin: 0;
+    border-top: 3px solid cyan;
+    background-color: black;
+    height: 500px;
+    display: flex;
+    width: 100%;
+
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 50px;
+}
+
+.t1 h1 {
+    padding-left: 180px;
+    font-size: 100px;
+    color: yellow;
+    margin: 0px;
+    font-style: normal;
+
+
+}
+
+.t2 {
+    border: 1px solid yellow;
+    margin: 10px;
+    background-color: yellow;
+    color: black;
+    padding: 3px 8px;
+    display: inline-block;
+    border-radius: 3px;
+
+
+}
+
+.t2 h2 {
+    padding: 5px;
+    margin: 0%;
+}
+
+.contain {
+    text-align: center;
+    padding-left: 250px;
+
+}
+
+.logo {
+    padding-left: 350px;
+    padding-top: 50px;
+}
+
+.addbox {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.adsec {
+    display: flex;
+    flex-direction: row;
+}
+
+.sideimage img {
+    width: 1000px;
+    height: 501px;
+}
+
+.showoff h2 {
+    text-align: center;
+
+    background-color: transparent;
+
+    font-size: 40px;
+    color: black;
+}
+
+.showoff {
+    background-color: yellow;
+    border: solid black 5px;
+    height: 250px;
+    text-align: center;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    width: 1200px;
+    margin-left: 360px;
+    margin-bottom: 140px;
+}
+
+.showoff h1 {
+    margin: 0px;
+}
+
+.boxes {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.box {
+    align-content: center;
+    background-color: aliceblue;
+    border: black solid;
+    height: 160px;
+    width: 140px;
+}
+
+.vid {
+    float: left;
+    padding-left: 100px;
+    margin-left: 100px;
+    padding-right: 50px;
+    padding-top: 50px;
+
+}
+
+.v1 p {
+    font-size: 16px;
+    color: black;
+    padding-right: 390px;
+    margin: 100px;
+}
+
+.verticals {
+    margin-top: 50px;
+    text-align: center;
+
+    height: 450px;
+    background-image: url(gymimg/Blue\ color\ grunge\ background_\ Scraps\ of\ old\ paper\ posters\ on\ the\ wall\ _\ Premium\ Photo.jpg);
+    background-attachment: fixed;
+    margin-left: 0px;
+    height: 500px;
+}
+
+.verticals h3 {
+    color: white;
+    font-weight: 500;
+    margin: 0;
+}
+
+.verticals h1 {
+    font-size: 60px;
+    color: yellow;
+
+    margin-bottom: 0px;
+}
+
+.verti {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: black;
+    gap: 10px;
+    margin: 10px;
+
+}
+
+.vert1 {
+    background-color: white;
+    transition-duration: 0.5s;
+
+    height: 300px;
+    width: 650px;
+    align-content: center;
+    gap: 50px;
+}
+
+.vert1 h1 {
+    margin-top: 0px;
+    font-size: 28px;
+    color: black;
+}
+
+.vert1:hover {
+    width: 700px;
+    height: 350px;
+}
+
+
+.vert2 {
+    background-color: white;
+    transition-duration: 0.5s;
+
+    height: 300px;
+    width: 650px;
+    align-content: center;
+
+    gap: 50px;
+
+
+
+}
+
+.vert2 h1 {
+    margin-top: 0px;
+    font-size: 28px;
+    color: black;
+}
+
+
+.vert2:hover {
+    width: 700px;
+    height: 350px;
+}
+
+.freetrial {
+    text-align: center;
+    height: 280px;
+    background-color: gainsboro;
+}
+
+.freetrial h1 {
+    display: inline-block;
+
+    color: yellow;
+    background-color: gray;
+}
+
+.freetrial h2 {
+    display: inline-block;
+    color: yellow;
+}
+
+.sign h2 {
+    border-radius: 20px;
+    color: black;
+    border: 2px solid yellow;
+    background-color: yellow;
+    text-align: center;
+    width: 160px;
+    height: 60px;
+    align-content: center;
+    transition-duration: 0.3s;
+    cursor: pointer;
+
+
+}
+
+.sign h2:hover {
+    color: gray;
+    width: 170px;
+    height: 70px;
+}
+
+.spons {
+
+    height: 200px;
+
+}
+
+.presale h3 {
+    text-align: center;
+    margin: 0px;
+    color: yellow;
+}
+
+.presale {
+    background-image: url(gymimg/photomania-7702d62be501ef59493452edaa378ddd.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    font-size: 50px;
+
+    height: 650px;
+}
+
+.option {
+    text-align: center;
+    gap: 10px;
+}
+
+
+.opt1 {
+    color: white;
+    font-size: 35px;
+    display: inline-block;
+    border: white solid 3px;
+    background-image: none;
+    height: 180px;
+    padding-right: 18px;
+    padding-left: 18px;
+}
+
+.opt2 {
+    text-align: center;
+    color: white;
+    background-image: none;
+    font-size: 35px;
+    display: inline-block;
+    border: white solid 3px;
+    height: 180px;
+
+}
+
+.opt2 h5 {
+    margin-left: 25px;
+    width: 350px;
+}
+
+.presale h1 {
+    margin: 0px;
+    color: red
+}
+
+.option h5 {
+    color: black;
+    background-color: yellow;
+}
+
+.option h5:hover {
+    background-color: black;
+    color: white;
+}
+
+.branch h3 {
+    text-align: left;
+    font-size: 30px;
+    padding-left: 440px;
+    color: white;
+}
+
+.branch li {
+    font-size: 30px;
+
+    color: yellow;
+    padding-left: 400px;
+}
+
+.program {
+
+    height: 1900px;
+
+
+}
+
+.program p {
+    font-size: 21px;
+    margin-left: 350px;
+    margin-right: 350px;
+
+}
+
+.program h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.pro1 {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 30px;
+
+    gap: 20px;
+    height: 500px;
+}
+
+
+.pro1 p {
+    font-size: 21px;
+    margin-left: 80px;
+    margin-right: 350px;
+
+}
+
+.pro1 img {
+    height: 400px;
+    width: 700px;
+    border-radius: 10px;
+    margin: 100px;
+
+}
+
+
+.pro2 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    overflow: hidden;
+    padding: 30px;
+
+    height: 500px;
+}
+
+.pro2 img {
+    height: 400px;
+    width: 700px;
+    border-radius: 10px;
+    margin-right: 300px;
+
+}
+
+.pro2 p {
+    margin-left: 100px;
+    padding-left: 60px;
+    margin-right: 50px;
+    font-size: 21px;
+}
+
+.pro3 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    overflow: hidden;
+    padding: 30px;
+
+    height: 500px;
+}
+
+.pro3 img {
+    height: 400px;
+    width: 700px;
+    border-radius: 10px;
+    margin: 80px;
+
+}
+
+.pro3 p {
+    font-size: 21px;
+    margin-left: 80px;
+    margin-right: 350px;
+
+}
+
+
+
+@keyframes sliderit {
+    0% {
+        transform: translateX(-500px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+}
+
+@keyframes slidelft {
+    0% {
+        transform: translateX(500px);
+        opacity: 0;
+
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+
+    }
+
+}
+
+.left,
+.right {
+    opacity: 0;
+}
+
+.animate-left {
+    animation: slidelft 1s forwards;
+    animation-delay: 0.2ms;
+}
+
+.animate-right {
+    animation: sliderit 1s forwards;
+    animation-delay: 0.2ms;
+}
+
+
+
+.institute {
+    text-align: center;
+    color: white;
+
+
+    background: fixed;
+    background-image: url(gymimg/Blue\ color\ grunge\ background_\ Scraps\ of\ old\ paper\ posters\ on\ the\ wall\ _\ Premium\ Photo.jpg);
+    height: 500px;
+
+
+}
+
+.institute h1 {
+    font-size: 60px;
+}
+
+
+
+
+.inst {
+    display: flex;
+    color: lightblue;
+
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+
+    font-weight: 1000;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.ins {
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 160px;
+    width: 250px;
+}
+
+#in1 {
+    background-image: url(gymimg/Exercising\ at\ Home\ During\ Coronavirus\ \(COVID-19\)\ Quarantine_\ How\ to\ Gain\ Without\ the\ Pain\ &\ Stay\ Injury\ Free\ _\ Fitness\ _\ 30Seconds\ Health.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#in2 {
+    background-image: url(gymimg/download\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#in3 {
+    background-image: url(gymimg/Back\ pain\ relief\ through\ movement_.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#in4 {
+    background-image: url(gymimg/download\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.know {
+    display: flex;
+    justify-content: center;
+
+}
+
+.know h2 {
+    border-radius: 20px;
+    color: black;
+    border: 2px solid black;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 160px;
+
+    height: 60px;
+
+    transition-duration: 0.3s;
+}
+
+.know h2:hover {
+    color: gray;
+    width: 170px;
+    height: 70px;
+}
+
+.test {
+    background-image: url(gymimg/Muscle\ \ Man.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+    position: relative;
+}
+
+.sliderwap {
+    position: relative;
+    max-width: 800px;
+    height: 200px;
+    margin: auto;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 20px;
+    font-size: 18px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease;
+    z-index: 0;
+}
+
+
+#slide1:target,
+#slide2:target,
+#slide3:target {
+    opacity: 1;
+    pointer-events: auto;
+    z-index: 1;
+}
+
+
+body:not(:has(:target)) #slide1 {
+    opacity: 1;
+    pointer-events: auto;
+    z-index: 1;
+}
+
+.slidenav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 15px;
+}
+
+.slidenav a {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.4;
+    transition: opacity 0.3s ease;
+}
+
+/* Highlight active dot */
+#slide1:target~.slidenav a[href="#slide1"],
+#slide2:target~.slidenav a[href="#slide2"],
+#slide3:target~.slidenav a[href="#slide3"],
+body:not(:has(:target)) .slidenav a[href="#slide1"] {
+    opacity: 1;
+}
+
+.slidenav a:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
+.contact {
+    margin-left: 600px;
+    text-align: center;
+
+
+    background-color: gray;
+    height: 1030px;
+    width: 700px;
+}
+
+.contact h1,
+h2 {
+    background-color: gray;
+
+    color: white;
+}
+
+.details {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+
+
+}
+
+#name,
+#email,
+#phonum,
+#states,
+#city,
+#gym {
+    border-radius: 10px;
+    width: 670px;
+    height: 50px;
+    font-size: 16px;
+    padding: 8px;
+}
+
+#message {
+    display: flex;
+    justify-content: flex-start;
+    width: 670px;
+    height: 200px;
+}
+
+.textarea {
+    width: 670px;
+    height: 200px;
+    padding: 10px;
+    font-size: 16px;
+    resize: none;
+    box-sizing: border-box;
+}
+
+#submit {
+    text-align: center;
+    border-radius: 20px;
+    color: black;
+    border: 2px solid black;
+    background-color: yellow;
+
+    cursor: pointer;
+    width: 580px;
+
+    height: 60px;
+
+    transition-duration: 0.3s;
+
+}
+
+#submit:hover {
+    color: gray;
+    width: 630px;
+    height: 60px;
+}
+
+.signin {
+    border-top: solid gray;
+    display: flex;
+
+}
+
+.end {
+    margin-top: 60px;
+    background-color: yellow;
+    border-bottom: solid cyan;
+    height: 175px;
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+}
+
+.tet1 {
+    margin-top: 30px;
+    margin-left: 500px;
+
+}
+
+.tet2 {
+    font-size: 28px;
+    height: 45px;
+    padding: 10px;
+    background-color: black;
+    margin-top: 50px;
+
+}
+
+.tet2 h4 {
+    color: yellow;
+    margin: 0px;
+}
+
+.tnx {
+    background-attachment: fixed;
+
+ background-image: url(gymimg/Blue\ color\ grunge\ background_\ Scraps\ of\ old\ paper\ posters\ on\ the\ wall\ _\ Premium\ Photo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.tnx img {
+    border-radius: 50px;
+    background-color: black;
+}
+
+.tnx h1 {
+    text-align: center;
+    font-size: 100px;
+    border-top: solid cyan;
+    color: yellow;
+    background-color: black;
+    margin-top: 0px;
+}
+
+.tnx h4 {
+    text-align: center;
+
+    font-size: 40px;
+    font-weight: 800;
+    margin-right: 380px;
+    margin-left: 380px;
+    margin-top: 120px;
+    border-radius: 20px;
+color: yellow;
+    
+    background-color: transparent 200;
+}
+
+.tnx h3 {
+    text-align: center;
+    font-size: 100px;
+    font-weight: 900;
+
+    background-color: yellow;
+    margin: 0px;
+}
+
+.tnx h5 {
+    margin: 0px;
+    height: 355px;
+    background-color: black;
+    color: white;
+}
+
+.follow h5 {
+    font-size: 16px;
+    text-align: center;
+    height: 367px;
+}
+
+.follow {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0px;
+    padding-bottom: 0px;
+
+}
+
+.insta {
+    text-decoration: none;
+    margin-left: 230px;
+
+}
+
+.youtube {
+    margin-left: 50px;
+
+}
+
+.twitter {
+    margin-left: 90px;
+}
+
+.linkedin {
+    margin-left: 200px;
+}
+
+.facebook {
+    margin-left: 130px;
+}
